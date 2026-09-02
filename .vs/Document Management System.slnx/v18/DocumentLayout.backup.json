@@ -1,0 +1,636 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E2925665-09D7-DAB9-5717-3ABA569EBFA4}|DMS-Frontend\\dms-frontend.esproj|c:\\users\\shudufhadzot\\source\\repos\\document management system\\dms-frontend\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E2925665-09D7-DAB9-5717-3ABA569EBFA4}|DMS-Frontend\\dms-frontend.esproj|solutionrelative:dms-frontend\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2925665-09D7-DAB9-5717-3ABA569EBFA4}|DMS-Frontend\\dms-frontend.esproj|c:\\users\\shudufhadzot\\source\\repos\\document management system\\dms-frontend\\src\\pages\\categoriespage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E2925665-09D7-DAB9-5717-3ABA569EBFA4}|DMS-Frontend\\dms-frontend.esproj|solutionrelative:dms-frontend\\src\\pages\\categoriespage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F2DEB84-F11D-2258-F00A-607EC24C0962}|Document Management System\\Document Management System.csproj|c:\\users\\shudufhadzot\\source\\repos\\document management system\\document management system\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F2DEB84-F11D-2258-F00A-607EC24C0962}|Document Management System\\Document Management System.csproj|solutionrelative:document management system\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F2DEB84-F11D-2258-F00A-607EC24C0962}|Document Management System\\Document Management System.csproj|c:\\users\\shudufhadzot\\source\\repos\\document management system\\document management system\\controllers\\documentversionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F2DEB84-F11D-2258-F00A-607EC24C0962}|Document Management System\\Document Management System.csproj|solutionrelative:document management system\\controllers\\documentversionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F2DEB84-F11D-2258-F00A-607EC24C0962}|Document Management System\\Document Management System.csproj|c:\\users\\shudufhadzot\\source\\repos\\document management system\\document management system\\services\\documentversionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F2DEB84-F11D-2258-F00A-607EC24C0962}|Document Management System\\Document Management System.csproj|solutionrelative:document management system\\services\\documentversionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F2DEB84-F11D-2258-F00A-607EC24C0962}|Document Management System\\Document Management System.csproj|c:\\users\\shudufhadzot\\source\\repos\\document management system\\document management system\\interfaces\\idocumentversionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F2DEB84-F11D-2258-F00A-607EC24C0962}|Document Management System\\Document Management System.csproj|solutionrelative:document management system\\interfaces\\idocumentversionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2925665-09D7-DAB9-5717-3ABA569EBFA4}|DMS-Frontend\\dms-frontend.esproj|c:\\users\\shudufhadzot\\source\\repos\\document management system\\dms-frontend\\src\\pages\\documentdetailpage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E2925665-09D7-DAB9-5717-3ABA569EBFA4}|DMS-Frontend\\dms-frontend.esproj|solutionrelative:dms-frontend\\src\\pages\\documentdetailpage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2925665-09D7-DAB9-5717-3ABA569EBFA4}|DMS-Frontend\\dms-frontend.esproj|c:\\users\\shudufhadzot\\source\\repos\\document management system\\dms-frontend\\src\\components\\pdfpreviewmodal.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E2925665-09D7-DAB9-5717-3ABA569EBFA4}|DMS-Frontend\\dms-frontend.esproj|solutionrelative:dms-frontend\\src\\components\\pdfpreviewmodal.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F2DEB84-F11D-2258-F00A-607EC24C0962}|Document Management System\\Document Management System.csproj|c:\\users\\shudufhadzot\\source\\repos\\document management system\\document management system\\controllers\\documentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F2DEB84-F11D-2258-F00A-607EC24C0962}|Document Management System\\Document Management System.csproj|solutionrelative:document management system\\controllers\\documentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F2DEB84-F11D-2258-F00A-607EC24C0962}|Document Management System\\Document Management System.csproj|c:\\users\\shudufhadzot\\source\\repos\\document management system\\document management system\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F2DEB84-F11D-2258-F00A-607EC24C0962}|Document Management System\\Document Management System.csproj|solutionrelative:document management system\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2925665-09D7-DAB9-5717-3ABA569EBFA4}|DMS-Frontend\\dms-frontend.esproj|c:\\users\\shudufhadzot\\source\\repos\\document management system\\dms-frontend\\src\\components\\navbar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E2925665-09D7-DAB9-5717-3ABA569EBFA4}|DMS-Frontend\\dms-frontend.esproj|solutionrelative:dms-frontend\\src\\components\\navbar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2925665-09D7-DAB9-5717-3ABA569EBFA4}|DMS-Frontend\\dms-frontend.esproj|c:\\users\\shudufhadzot\\source\\repos\\document management system\\dms-frontend\\src\\pages\\documentspage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E2925665-09D7-DAB9-5717-3ABA569EBFA4}|DMS-Frontend\\dms-frontend.esproj|solutionrelative:dms-frontend\\src\\pages\\documentspage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2925665-09D7-DAB9-5717-3ABA569EBFA4}|DMS-Frontend\\dms-frontend.esproj|c:\\users\\shudufhadzot\\source\\repos\\document management system\\dms-frontend\\src\\context\\authcontext.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E2925665-09D7-DAB9-5717-3ABA569EBFA4}|DMS-Frontend\\dms-frontend.esproj|solutionrelative:dms-frontend\\src\\context\\authcontext.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F2DEB84-F11D-2258-F00A-607EC24C0962}|Document Management System\\Document Management System.csproj|c:\\users\\shudufhadzot\\source\\repos\\document management system\\document management system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F2DEB84-F11D-2258-F00A-607EC24C0962}|Document Management System\\Document Management System.csproj|solutionrelative:document management system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2925665-09D7-DAB9-5717-3ABA569EBFA4}|DMS-Frontend\\dms-frontend.esproj|c:\\users\\shudufhadzot\\source\\repos\\document management system\\dms-frontend\\src\\api\\client.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E2925665-09D7-DAB9-5717-3ABA569EBFA4}|DMS-Frontend\\dms-frontend.esproj|solutionrelative:dms-frontend\\src\\api\\client.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2925665-09D7-DAB9-5717-3ABA569EBFA4}|DMS-Frontend\\dms-frontend.esproj|c:\\users\\shudufhadzot\\source\\repos\\document management system\\dms-frontend\\src\\api\\documentsapi.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E2925665-09D7-DAB9-5717-3ABA569EBFA4}|DMS-Frontend\\dms-frontend.esproj|solutionrelative:dms-frontend\\src\\api\\documentsapi.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F2DEB84-F11D-2258-F00A-607EC24C0962}|Document Management System\\Document Management System.csproj|c:\\users\\shudufhadzot\\source\\repos\\document management system\\document management system\\services\\documentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F2DEB84-F11D-2258-F00A-607EC24C0962}|Document Management System\\Document Management System.csproj|solutionrelative:document management system\\services\\documentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F2DEB84-F11D-2258-F00A-607EC24C0962}|Document Management System\\Document Management System.csproj|c:\\users\\shudufhadzot\\source\\repos\\document management system\\document management system\\interfaces\\idocumentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F2DEB84-F11D-2258-F00A-607EC24C0962}|Document Management System\\Document Management System.csproj|solutionrelative:document management system\\interfaces\\idocumentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F2DEB84-F11D-2258-F00A-607EC24C0962}|Document Management System\\Document Management System.csproj|c:\\users\\shudufhadzot\\source\\repos\\document management system\\document management system\\models\\dtos\\documentstatusupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F2DEB84-F11D-2258-F00A-607EC24C0962}|Document Management System\\Document Management System.csproj|solutionrelative:document management system\\models\\dtos\\documentstatusupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F2DEB84-F11D-2258-F00A-607EC24C0962}|Document Management System\\Document Management System.csproj|c:\\users\\shudufhadzot\\source\\repos\\document management system\\document management system\\models\\dtos\\documentdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F2DEB84-F11D-2258-F00A-607EC24C0962}|Document Management System\\Document Management System.csproj|solutionrelative:document management system\\models\\dtos\\documentdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F2DEB84-F11D-2258-F00A-607EC24C0962}|Document Management System\\Document Management System.csproj|c:\\users\\shudufhadzot\\source\\repos\\document management system\\document management system\\models\\dtos\\documentversiondtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F2DEB84-F11D-2258-F00A-607EC24C0962}|Document Management System\\Document Management System.csproj|solutionrelative:document management system\\models\\dtos\\documentversiondtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2925665-09D7-DAB9-5717-3ABA569EBFA4}|DMS-Frontend\\dms-frontend.esproj|c:\\users\\shudufhadzot\\source\\repos\\document management system\\dms-frontend\\src\\api\\documentversionsapi.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E2925665-09D7-DAB9-5717-3ABA569EBFA4}|DMS-Frontend\\dms-frontend.esproj|solutionrelative:dms-frontend\\src\\api\\documentversionsapi.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2925665-09D7-DAB9-5717-3ABA569EBFA4}|DMS-Frontend\\dms-frontend.esproj|c:\\users\\shudufhadzot\\source\\repos\\document management system\\dms-frontend\\src\\api\\categoriesapi.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E2925665-09D7-DAB9-5717-3ABA569EBFA4}|DMS-Frontend\\dms-frontend.esproj|solutionrelative:dms-frontend\\src\\api\\categoriesapi.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2925665-09D7-DAB9-5717-3ABA569EBFA4}|DMS-Frontend\\dms-frontend.esproj|c:\\users\\shudufhadzot\\source\\repos\\document management system\\dms-frontend\\src\\api\\authapi.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E2925665-09D7-DAB9-5717-3ABA569EBFA4}|DMS-Frontend\\dms-frontend.esproj|solutionrelative:dms-frontend\\src\\api\\authapi.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F2DEB84-F11D-2258-F00A-607EC24C0962}|Document Management System\\Document Management System.csproj|c:\\users\\shudufhadzot\\source\\repos\\document management system\\document management system\\models\\entities\\documentversion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F2DEB84-F11D-2258-F00A-607EC24C0962}|Document Management System\\Document Management System.csproj|solutionrelative:document management system\\models\\entities\\documentversion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2925665-09D7-DAB9-5717-3ABA569EBFA4}|DMS-Frontend\\dms-frontend.esproj|c:\\users\\shudufhadzot\\source\\repos\\document management system\\dms-frontend\\src\\components\\documentcard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E2925665-09D7-DAB9-5717-3ABA569EBFA4}|DMS-Frontend\\dms-frontend.esproj|solutionrelative:dms-frontend\\src\\components\\documentcard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2925665-09D7-DAB9-5717-3ABA569EBFA4}|DMS-Frontend\\dms-frontend.esproj|c:\\users\\shudufhadzot\\source\\repos\\document management system\\dms-frontend\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E2925665-09D7-DAB9-5717-3ABA569EBFA4}|DMS-Frontend\\dms-frontend.esproj|solutionrelative:dms-frontend\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2925665-09D7-DAB9-5717-3ABA569EBFA4}|DMS-Frontend\\dms-frontend.esproj|c:\\users\\shudufhadzot\\source\\repos\\document management system\\dms-frontend\\src\\pages\\registerpage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E2925665-09D7-DAB9-5717-3ABA569EBFA4}|DMS-Frontend\\dms-frontend.esproj|solutionrelative:dms-frontend\\src\\pages\\registerpage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2925665-09D7-DAB9-5717-3ABA569EBFA4}|DMS-Frontend\\dms-frontend.esproj|c:\\users\\shudufhadzot\\source\\repos\\document management system\\dms-frontend\\src\\pages\\loginpage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E2925665-09D7-DAB9-5717-3ABA569EBFA4}|DMS-Frontend\\dms-frontend.esproj|solutionrelative:dms-frontend\\src\\pages\\loginpage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2925665-09D7-DAB9-5717-3ABA569EBFA4}|DMS-Frontend\\dms-frontend.esproj|c:\\users\\shudufhadzot\\source\\repos\\document management system\\dms-frontend\\src\\components\\protectedroute.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E2925665-09D7-DAB9-5717-3ABA569EBFA4}|DMS-Frontend\\dms-frontend.esproj|solutionrelative:dms-frontend\\src\\components\\protectedroute.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2925665-09D7-DAB9-5717-3ABA569EBFA4}|DMS-Frontend\\dms-frontend.esproj|c:\\users\\shudufhadzot\\source\\repos\\document management system\\dms-frontend\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E2925665-09D7-DAB9-5717-3ABA569EBFA4}|DMS-Frontend\\dms-frontend.esproj|solutionrelative:dms-frontend\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2925665-09D7-DAB9-5717-3ABA569EBFA4}|DMS-Frontend\\dms-frontend.esproj|c:\\users\\shudufhadzot\\source\\repos\\document management system\\dms-frontend\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E2925665-09D7-DAB9-5717-3ABA569EBFA4}|DMS-Frontend\\dms-frontend.esproj|solutionrelative:dms-frontend\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F2DEB84-F11D-2258-F00A-607EC24C0962}|Document Management System\\Document Management System.csproj|c:\\users\\shudufhadzot\\source\\repos\\document management system\\document management system\\controllers\\auditlogscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F2DEB84-F11D-2258-F00A-607EC24C0962}|Document Management System\\Document Management System.csproj|solutionrelative:document management system\\controllers\\auditlogscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F2DEB84-F11D-2258-F00A-607EC24C0962}|Document Management System\\Document Management System.csproj|c:\\users\\shudufhadzot\\source\\repos\\document management system\\document management system\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F2DEB84-F11D-2258-F00A-607EC24C0962}|Document Management System\\Document Management System.csproj|solutionrelative:document management system\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F2DEB84-F11D-2258-F00A-607EC24C0962}|Document Management System\\Document Management System.csproj|c:\\users\\shudufhadzot\\source\\repos\\document management system\\document management system\\models\\entities\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F2DEB84-F11D-2258-F00A-607EC24C0962}|Document Management System\\Document Management System.csproj|solutionrelative:document management system\\models\\entities\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F2DEB84-F11D-2258-F00A-607EC24C0962}|Document Management System\\Document Management System.csproj|c:\\users\\shudufhadzot\\source\\repos\\document management system\\document management system\\models\\entities\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F2DEB84-F11D-2258-F00A-607EC24C0962}|Document Management System\\Document Management System.csproj|solutionrelative:document management system\\models\\entities\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F2DEB84-F11D-2258-F00A-607EC24C0962}|Document Management System\\Document Management System.csproj|c:\\users\\shudufhadzot\\source\\repos\\document management system\\document management system\\migrations\\20260828072206_addidentitytables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F2DEB84-F11D-2258-F00A-607EC24C0962}|Document Management System\\Document Management System.csproj|solutionrelative:document management system\\migrations\\20260828072206_addidentitytables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoriesPage.jsx",
+              "DocumentMoniker": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\dms-frontend\\src\\pages\\CategoriesPage.jsx",
+              "RelativeDocumentMoniker": "dms-frontend\\src\\pages\\CategoriesPage.jsx",
+              "ToolTip": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\dms-frontend\\src\\pages\\CategoriesPage.jsx*",
+              "RelativeToolTip": "dms-frontend\\src\\pages\\CategoriesPage.jsx*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAL0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-08-31T07:59:48.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DocumentVersionService.cs",
+              "DocumentMoniker": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\Document Management System\\Services\\DocumentVersionService.cs",
+              "RelativeDocumentMoniker": "Document Management System\\Services\\DocumentVersionService.cs",
+              "ToolTip": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\Document Management System\\Services\\DocumentVersionService.cs",
+              "RelativeToolTip": "Document Management System\\Services\\DocumentVersionService.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAYwDEAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T10:01:05.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IDocumentVersionService.cs",
+              "DocumentMoniker": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\Document Management System\\Interfaces\\IDocumentVersionService.cs",
+              "RelativeDocumentMoniker": "Document Management System\\Interfaces\\IDocumentVersionService.cs",
+              "ToolTip": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\Document Management System\\Interfaces\\IDocumentVersionService.cs",
+              "RelativeToolTip": "Document Management System\\Interfaces\\IDocumentVersionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T10:46:48.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DocumentVersionsController.cs",
+              "DocumentMoniker": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\Document Management System\\Controllers\\DocumentVersionsController.cs",
+              "RelativeDocumentMoniker": "Document Management System\\Controllers\\DocumentVersionsController.cs",
+              "ToolTip": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\Document Management System\\Controllers\\DocumentVersionsController.cs*",
+              "RelativeToolTip": "Document Management System\\Controllers\\DocumentVersionsController.cs*",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T10:00:55.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "index.css",
+              "DocumentMoniker": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\dms-frontend\\src\\index.css",
+              "RelativeDocumentMoniker": "dms-frontend\\src\\index.css",
+              "ToolTip": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\dms-frontend\\src\\index.css",
+              "RelativeToolTip": "dms-frontend\\src\\index.css",
+              "ViewState": "AgIAAOIBAAAAAAAAAAAuwPoBAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-08-31T07:00:20.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\Document Management System\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Document Management System\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\Document Management System\\Controllers\\AuthController.cs*",
+              "RelativeToolTip": "Document Management System\\Controllers\\AuthController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T10:01:50.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DocumentsPage.jsx",
+              "DocumentMoniker": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\dms-frontend\\src\\pages\\DocumentsPage.jsx",
+              "RelativeDocumentMoniker": "dms-frontend\\src\\pages\\DocumentsPage.jsx",
+              "ToolTip": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\dms-frontend\\src\\pages\\DocumentsPage.jsx",
+              "RelativeToolTip": "dms-frontend\\src\\pages\\DocumentsPage.jsx",
+              "ViewState": "AgIAAJUAAAAAAAAAAAAAwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-08-31T08:10:30.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DocumentDetailPage.jsx",
+              "DocumentMoniker": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\dms-frontend\\src\\pages\\DocumentDetailPage.jsx",
+              "RelativeDocumentMoniker": "dms-frontend\\src\\pages\\DocumentDetailPage.jsx",
+              "ToolTip": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\dms-frontend\\src\\pages\\DocumentDetailPage.jsx",
+              "RelativeToolTip": "dms-frontend\\src\\pages\\DocumentDetailPage.jsx",
+              "ViewState": "AgIAAMsAAAAAAAAAAAAmwOAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-08-31T08:11:36.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PdfPreviewModal.jsx",
+              "DocumentMoniker": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\dms-frontend\\src\\components\\PdfPreviewModal.jsx",
+              "RelativeDocumentMoniker": "dms-frontend\\src\\components\\PdfPreviewModal.jsx",
+              "ToolTip": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\dms-frontend\\src\\components\\PdfPreviewModal.jsx",
+              "RelativeToolTip": "dms-frontend\\src\\components\\PdfPreviewModal.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-09-01T09:44:40.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Navbar.jsx",
+              "DocumentMoniker": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\dms-frontend\\src\\components\\Navbar.jsx",
+              "RelativeDocumentMoniker": "dms-frontend\\src\\components\\Navbar.jsx",
+              "ToolTip": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\dms-frontend\\src\\components\\Navbar.jsx",
+              "RelativeToolTip": "dms-frontend\\src\\components\\Navbar.jsx",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBsAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-08-31T08:25:49.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\Document Management System\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "Document Management System\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\Document Management System\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "Document Management System\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA6wDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T09:59:27.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DocumentsController.cs",
+              "DocumentMoniker": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\Document Management System\\Controllers\\DocumentsController.cs",
+              "RelativeDocumentMoniker": "Document Management System\\Controllers\\DocumentsController.cs",
+              "ToolTip": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\Document Management System\\Controllers\\DocumentsController.cs",
+              "RelativeToolTip": "Document Management System\\Controllers\\DocumentsController.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAYwE0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T10:00:15.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\Document Management System\\Program.cs",
+              "RelativeDocumentMoniker": "Document Management System\\Program.cs",
+              "ToolTip": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\Document Management System\\Program.cs",
+              "RelativeToolTip": "Document Management System\\Program.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAuwFIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T10:04:48.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AuthContext.jsx",
+              "DocumentMoniker": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\dms-frontend\\src\\context\\AuthContext.jsx",
+              "RelativeDocumentMoniker": "dms-frontend\\src\\context\\AuthContext.jsx",
+              "ToolTip": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\dms-frontend\\src\\context\\AuthContext.jsx",
+              "RelativeToolTip": "dms-frontend\\src\\context\\AuthContext.jsx",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-08-31T07:21:47.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IDocumentService.cs",
+              "DocumentMoniker": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\Document Management System\\Interfaces\\IDocumentService.cs",
+              "RelativeDocumentMoniker": "Document Management System\\Interfaces\\IDocumentService.cs",
+              "ToolTip": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\Document Management System\\Interfaces\\IDocumentService.cs",
+              "RelativeToolTip": "Document Management System\\Interfaces\\IDocumentService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T07:37:36.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "client.js",
+              "DocumentMoniker": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\dms-frontend\\src\\api\\client.js",
+              "RelativeDocumentMoniker": "dms-frontend\\src\\api\\client.js",
+              "ToolTip": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\dms-frontend\\src\\api\\client.js",
+              "RelativeToolTip": "dms-frontend\\src\\api\\client.js",
+              "ViewState": "AgIAABgAAAAAAAAAAAAQwCkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-08-31T07:13:06.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "documentsApi.js",
+              "DocumentMoniker": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\dms-frontend\\src\\api\\documentsApi.js",
+              "RelativeDocumentMoniker": "dms-frontend\\src\\api\\documentsApi.js",
+              "ToolTip": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\dms-frontend\\src\\api\\documentsApi.js",
+              "RelativeToolTip": "dms-frontend\\src\\api\\documentsApi.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-08-31T07:59:02.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DocumentService.cs",
+              "DocumentMoniker": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\Document Management System\\Services\\DocumentService.cs",
+              "RelativeDocumentMoniker": "Document Management System\\Services\\DocumentService.cs",
+              "ToolTip": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\Document Management System\\Services\\DocumentService.cs",
+              "RelativeToolTip": "Document Management System\\Services\\DocumentService.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAQwH0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T07:36:30.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DocumentStatusUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\Document Management System\\Models\\DTOS\\DocumentStatusUpdateDto.cs",
+              "RelativeDocumentMoniker": "Document Management System\\Models\\DTOS\\DocumentStatusUpdateDto.cs",
+              "ToolTip": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\Document Management System\\Models\\DTOS\\DocumentStatusUpdateDto.cs",
+              "RelativeToolTip": "Document Management System\\Models\\DTOS\\DocumentStatusUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T08:15:22.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DocumentVersionDtos.cs",
+              "DocumentMoniker": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\Document Management System\\Models\\DTOS\\DocumentVersionDtos.cs",
+              "RelativeDocumentMoniker": "Document Management System\\Models\\DTOS\\DocumentVersionDtos.cs",
+              "ToolTip": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\Document Management System\\Models\\DTOS\\DocumentVersionDtos.cs",
+              "RelativeToolTip": "Document Management System\\Models\\DTOS\\DocumentVersionDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T08:12:53.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "authApi.js",
+              "DocumentMoniker": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\dms-frontend\\src\\api\\authApi.js",
+              "RelativeDocumentMoniker": "dms-frontend\\src\\api\\authApi.js",
+              "ToolTip": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\dms-frontend\\src\\api\\authApi.js",
+              "RelativeToolTip": "dms-frontend\\src\\api\\authApi.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-08-31T07:20:30.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DocumentDTOs.cs",
+              "DocumentMoniker": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\Document Management System\\Models\\DTOS\\DocumentDTOs.cs",
+              "RelativeDocumentMoniker": "Document Management System\\Models\\DTOS\\DocumentDTOs.cs",
+              "ToolTip": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\Document Management System\\Models\\DTOS\\DocumentDTOs.cs",
+              "RelativeToolTip": "Document Management System\\Models\\DTOS\\DocumentDTOs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T07:55:15.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "documentVersionsApi.js",
+              "DocumentMoniker": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\dms-frontend\\src\\api\\documentVersionsApi.js",
+              "RelativeDocumentMoniker": "dms-frontend\\src\\api\\documentVersionsApi.js",
+              "ToolTip": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\dms-frontend\\src\\api\\documentVersionsApi.js",
+              "RelativeToolTip": "dms-frontend\\src\\api\\documentVersionsApi.js",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-08-31T07:59:19.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "categoriesApi.js",
+              "DocumentMoniker": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\dms-frontend\\src\\api\\categoriesApi.js",
+              "RelativeDocumentMoniker": "dms-frontend\\src\\api\\categoriesApi.js",
+              "ToolTip": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\dms-frontend\\src\\api\\categoriesApi.js",
+              "RelativeToolTip": "dms-frontend\\src\\api\\categoriesApi.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-08-31T07:58:46.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DocumentVersion.cs",
+              "DocumentMoniker": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\Document Management System\\Models\\Entities\\DocumentVersion.cs",
+              "RelativeDocumentMoniker": "Document Management System\\Models\\Entities\\DocumentVersion.cs",
+              "ToolTip": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\Document Management System\\Models\\Entities\\DocumentVersion.cs",
+              "RelativeToolTip": "Document Management System\\Models\\Entities\\DocumentVersion.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAcAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T10:45:18.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "DocumentCard.jsx",
+              "DocumentMoniker": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\dms-frontend\\src\\components\\DocumentCard.jsx",
+              "RelativeDocumentMoniker": "dms-frontend\\src\\components\\DocumentCard.jsx",
+              "ToolTip": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\dms-frontend\\src\\components\\DocumentCard.jsx",
+              "RelativeToolTip": "dms-frontend\\src\\components\\DocumentCard.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAA+wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-08-31T08:33:16.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "App.jsx",
+              "DocumentMoniker": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\dms-frontend\\src\\App.jsx",
+              "RelativeDocumentMoniker": "dms-frontend\\src\\App.jsx",
+              "ToolTip": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\dms-frontend\\src\\App.jsx",
+              "RelativeToolTip": "dms-frontend\\src\\App.jsx",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwAcAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-08-31T07:00:06.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "RegisterPage.jsx",
+              "DocumentMoniker": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\dms-frontend\\src\\pages\\RegisterPage.jsx",
+              "RelativeDocumentMoniker": "dms-frontend\\src\\pages\\RegisterPage.jsx",
+              "ToolTip": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\dms-frontend\\src\\pages\\RegisterPage.jsx",
+              "RelativeToolTip": "dms-frontend\\src\\pages\\RegisterPage.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-08-31T07:33:03.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "LoginPage.jsx",
+              "DocumentMoniker": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\dms-frontend\\src\\pages\\LoginPage.jsx",
+              "RelativeDocumentMoniker": "dms-frontend\\src\\pages\\LoginPage.jsx",
+              "ToolTip": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\dms-frontend\\src\\pages\\LoginPage.jsx",
+              "RelativeToolTip": "dms-frontend\\src\\pages\\LoginPage.jsx",
+              "ViewState": "AgIAACQAAAAAAAAAAAAwwDoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-08-31T07:32:40.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ProtectedRoute.jsx",
+              "DocumentMoniker": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\dms-frontend\\src\\components\\ProtectedRoute.jsx",
+              "RelativeDocumentMoniker": "dms-frontend\\src\\components\\ProtectedRoute.jsx",
+              "ToolTip": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\dms-frontend\\src\\components\\ProtectedRoute.jsx",
+              "RelativeToolTip": "dms-frontend\\src\\components\\ProtectedRoute.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-08-31T07:32:22.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "vite.config.js",
+              "DocumentMoniker": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\dms-frontend\\vite.config.js",
+              "RelativeDocumentMoniker": "dms-frontend\\vite.config.js",
+              "ToolTip": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\dms-frontend\\vite.config.js",
+              "RelativeToolTip": "dms-frontend\\vite.config.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-08-31T07:19:03.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "main.jsx",
+              "DocumentMoniker": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\dms-frontend\\src\\main.jsx",
+              "RelativeDocumentMoniker": "dms-frontend\\src\\main.jsx",
+              "ToolTip": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\dms-frontend\\src\\main.jsx",
+              "RelativeToolTip": "dms-frontend\\src\\main.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-08-31T07:03:44.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "AuditLogsController.cs",
+              "DocumentMoniker": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\Document Management System\\Controllers\\AuditLogsController.cs",
+              "RelativeDocumentMoniker": "Document Management System\\Controllers\\AuditLogsController.cs",
+              "ToolTip": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\Document Management System\\Controllers\\AuditLogsController.cs",
+              "RelativeToolTip": "Document Management System\\Controllers\\AuditLogsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T10:01:51.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\Document Management System\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Document Management System\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\Document Management System\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Document Management System\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAswE8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T07:15:39.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Document.cs",
+              "DocumentMoniker": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\Document Management System\\Models\\Entities\\Document.cs",
+              "RelativeDocumentMoniker": "Document Management System\\Models\\Entities\\Document.cs",
+              "ToolTip": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\Document Management System\\Models\\Entities\\Document.cs",
+              "RelativeToolTip": "Document Management System\\Models\\Entities\\Document.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T07:44:52.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "AuditLog.cs",
+              "DocumentMoniker": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\Document Management System\\Models\\Entities\\AuditLog.cs",
+              "RelativeDocumentMoniker": "Document Management System\\Models\\Entities\\AuditLog.cs",
+              "ToolTip": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\Document Management System\\Models\\Entities\\AuditLog.cs",
+              "RelativeToolTip": "Document Management System\\Models\\Entities\\AuditLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T07:45:56.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "20260828072206_AddIdentityTables.cs",
+              "DocumentMoniker": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\Document Management System\\Migrations\\20260828072206_AddIdentityTables.cs",
+              "RelativeDocumentMoniker": "Document Management System\\Migrations\\20260828072206_AddIdentityTables.cs",
+              "ToolTip": "C:\\Users\\ShudufhadzoT\\source\\repos\\Document Management System\\Document Management System\\Migrations\\20260828072206_AddIdentityTables.cs",
+              "RelativeToolTip": "Document Management System\\Migrations\\20260828072206_AddIdentityTables.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T07:22:06.431Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

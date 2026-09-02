@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="DMS-Frontend/dms-frontend.esproj">
+    <Build />
+    <Deploy />
+  </Project>
+  <Project Path="Document Management System/Document Management System.csproj" />
+</Solution>

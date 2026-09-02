@@ -1,0 +1,20 @@
+## .NET backend (Document Management System/) ##
+Document Management System/bin/
+Document Management System/obj/
+**/bin/
+**/obj/
+*.user
+*.suo
+.vs/
+
+## Uploaded documents — never commit real files
+Document Management System/DocumentStorage/
+
+## Secrets / connection strings
+Document Management System/appsettings.Development.json
+Document Management System/appsettings.Local.json
+
+## React frontend (dms-frontend/) ##
+dms-frontend/node_modules/
+dms-frontend/dist/
+dms-frontend/.env

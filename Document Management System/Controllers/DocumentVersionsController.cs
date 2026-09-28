@@ -2,6 +2,7 @@
 using Document_Management_System.Models.DTOS;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 
 namespace Document_Management_System.Controllers
 {
@@ -12,11 +13,16 @@ namespace Document_Management_System.Controllers
     {
         private readonly IDocumentVersionService _versionService;
         private readonly IFileStorageService _fileStorage;
+        private readonly IDocumentPermissionService _permissionService;
 
-        public DocumentVersionsController(IDocumentVersionService versionService, IFileStorageService fileStorage)
+        public DocumentVersionsController(
+            IDocumentVersionService versionService,
+            IFileStorageService fileStorage,
+            IDocumentPermissionService permissionService)
         {
             _versionService = versionService;
             _fileStorage = fileStorage;
+            _permissionService = permissionService;
         }
 
         [HttpGet]
@@ -50,6 +56,19 @@ namespace Document_Management_System.Controllers
         [HttpGet("{versionId}/download")]
         public async Task<IActionResult> Download(int documentId, int versionId)
         {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var isAdmin = User.IsInRole("Admin");
+
+            if (!isAdmin && !string.IsNullOrEmpty(userId))
+            {
+                var hasAnyRestriction = (await _permissionService.GetForDocumentAsync(documentId)).Any();
+                if (hasAnyRestriction)
+                {
+                    var canDownload = await _permissionService.HasPermissionAsync(documentId, userId, "Download");
+                    if (!canDownload) return Forbid();
+                }
+            }
+
             var version = await _versionService.GetVersionByIdAsync(versionId);
             if (version == null || version.DocumentId != documentId) return NotFound();
 

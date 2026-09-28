@@ -9,7 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
@@ -21,6 +21,10 @@ builder.Services.AddScoped<IDocumentService,DocumentService>();
 builder.Services.AddScoped<IDocumentVersionService,DocumentVersionService>();
 builder.Services.AddScoped<IAuditLogService, AuditLogService>();
 builder.Services.AddScoped<IFileStorageService,LocalFileStorageService>();
+builder.Services.AddScoped<IDepartmentService, DepartmentService>();
+builder.Services.AddScoped<IDocumentPermissionService, DocumentPermissionService>();
+builder.Services.AddScoped<IDocumentCommentService, DocumentCommentService>();
+builder.Services.AddScoped<INotificationService, NotificationService>();
 
 builder.Services.AddIdentity<IdentityUser, IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>()
@@ -72,7 +76,6 @@ using (var scope = app.Services.CreateScope())
             await roleManager.CreateAsync(new IdentityRole(role));
     }
 
-    // assign your existing test user to ComplianceOfficer so you can test the audit-log endpoint
     var testUser = await userManager.FindByEmailAsync("test@dms.com");
     if (testUser != null && !await userManager.IsInRoleAsync(testUser, "Admin"))
     {
@@ -89,6 +92,8 @@ if (app.Environment.IsDevelopment())
 //
 
 app.UseHttpsRedirection();
+
+app.UseCors("AllowReactApp");
 
 app.UseAuthorization();
 

@@ -273,6 +273,9 @@ body {
     gap: 8px;
     font-size: 13px;
 }
+.create-document-form {
+    flex-wrap: wrap;
+}
 
 
 /* ---------- Navbar ---------- */
@@ -621,3 +624,457 @@ body {
             opacity: 0.4;
             cursor: not-allowed;
         }
+
+
+.create-document-form-expanded {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0 30px;
+    background: white;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+    .create-document-form-expanded .form-row {
+        display: flex;
+        gap: 10px;
+    }
+
+    .create-document-form-expanded input,
+    .create-document-form-expanded select,
+    .create-document-form-expanded textarea {
+        padding: 8px 10px;
+        border: 1px solid #d1d5db;
+        border-radius: 6px;
+        font-size: 14px;
+        flex: 1;
+        font-family: inherit;
+    }
+
+    .create-document-form-expanded textarea {
+        resize: vertical;
+    }
+
+    .create-document-form-expanded .date-field {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        font-size: 12px;
+        color: #6b7280;
+        flex: 1;
+    }
+
+    .create-document-form-expanded button {
+        align-self: flex-start;
+        padding: 8px 16px;
+        background: #4f46e5;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+.doc-type-badge {
+    font-size: 11px;
+    background: #ede9fe;
+    color: #6d28d9;
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.review-due-badge {
+    font-size: 11px;
+    background: #fee2e2;
+    color: #b91c1c;
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.doc-description {
+    color: #4b5563;
+    font-size: 14px;
+    margin: -8px 0 20px;
+}
+
+.tag-list {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.tag-chip {
+    background: #f3f4f6;
+    color: #374151;
+    font-size: 12px;
+    padding: 3px 10px;
+    border-radius: 12px;
+}
+
+
+.user-roles-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.role-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.role-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: #eef2ff;
+    color: #4338ca;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 3px 6px 3px 10px;
+    border-radius: 12px;
+}
+
+.role-chip-remove {
+    background: none;
+    border: none;
+    color: #4338ca;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1;
+    padding: 0 2px;
+}
+
+.no-roles-text {
+    font-size: 12px;
+    color: #9ca3af;
+}
+
+.assign-role-controls {
+    display: flex;
+    gap: 8px;
+}
+
+    .assign-role-controls select {
+        padding: 5px 8px;
+        border: 1px solid #d1d5db;
+        border-radius: 6px;
+        font-size: 13px;
+    }
+
+    .assign-role-controls button {
+        padding: 5px 12px;
+        background: #4f46e5;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        font-size: 13px;
+        cursor: pointer;
+    }
+
+
+.permissions-section {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+    margin-bottom: 20px;
+}
+
+    .permissions-section h2 {
+        margin-top: 0;
+        font-size: 16px;
+    }
+
+.grant-permission-form {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    flex-wrap: wrap;
+    margin-top: 16px;
+    padding-top: 16px;
+    border-top: 1px solid #f0f0f0;
+}
+
+    .grant-permission-form select {
+        padding: 8px 10px;
+        border: 1px solid #d1d5db;
+        border-radius: 6px;
+        font-size: 14px;
+    }
+
+.permission-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 13px;
+    color: #4b5563;
+}
+
+.grant-permission-form button {
+    padding: 8px 16px;
+    background: #4f46e5;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+.status-submitted {
+    background: #dbeafe;
+    color: #1e40af;
+}
+
+.status-underreview {
+    background: #fef9c3;
+    color: #854d0e;
+}
+
+.status-approved {
+    background: #dcfce7;
+    color: #166534;
+}
+
+.status-rejected {
+    background: #fee2e2;
+    color: #991b1b;
+}
+
+.status-published {
+    background: #d1fae5;
+    color: #065f46;
+}
+
+.status-expired {
+    background: #fef2f2;
+    color: #b91c1c;
+}
+
+.status-action-submitted,
+.status-action-underreview {
+    background: #dbeafe;
+    color: #1e40af;
+    border-color: #93c5fd;
+}
+
+.status-action-approved,
+.status-action-published {
+    background: #dcfce7;
+    color: #166534;
+    border-color: #86efac;
+}
+
+.status-action-rejected {
+    background: #fee2e2;
+    color: #991b1b;
+    border-color: #fca5a5;
+}
+
+.status-action-expired {
+    background: #fef2f2;
+    color: #b91c1c;
+    border-color: #fecaca;
+}
+
+
+.comments-section {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+    margin-bottom: 20px;
+}
+
+    .comments-section h2 {
+        margin-top: 0;
+        font-size: 16px;
+    }
+
+.comment-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.comment-item {
+    background: #f9fafb;
+    border-radius: 6px;
+    padding: 10px 12px;
+}
+
+.comment-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 4px;
+}
+
+.comment-author {
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.comment-date {
+    font-size: 11px;
+    color: #9ca3af;
+    flex: 1;
+}
+
+.comment-delete {
+    background: none;
+    border: none;
+    color: #dc2626;
+    font-size: 11px;
+    cursor: pointer;
+    padding: 0;
+}
+
+.comment-content {
+    margin: 0;
+    font-size: 14px;
+    color: #374151;
+    white-space: pre-wrap;
+}
+
+.comment-form {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+    .comment-form textarea {
+        flex: 1;
+        padding: 8px 10px;
+        border: 1px solid #d1d5db;
+        border-radius: 6px;
+        font-size: 14px;
+        font-family: inherit;
+        resize: vertical;
+    }
+
+    .comment-form button {
+        padding: 8px 16px;
+        background: #4f46e5;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        font-weight: 600;
+        cursor: pointer;
+        white-space: nowrap;
+    }
+
+
+.notification-bell {
+    position: relative;
+}
+
+.bell-button {
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    position: relative;
+    padding: 4px;
+}
+
+.bell-badge {
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    background: #dc2626;
+    color: white;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 1px 5px;
+    border-radius: 10px;
+    min-width: 16px;
+    text-align: center;
+}
+
+.notification-dropdown {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    margin-top: 8px;
+    width: 320px;
+    max-height: 400px;
+    overflow-y: auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    z-index: 50;
+}
+
+.notification-dropdown-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 14px;
+    border-bottom: 1px solid #f0f0f0;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+    .notification-dropdown-header button {
+        background: none;
+        border: none;
+        color: #4f46e5;
+        font-size: 12px;
+        cursor: pointer;
+        font-weight: 500;
+    }
+
+.notification-empty {
+    padding: 20px;
+    text-align: center;
+    color: #9ca3af;
+    font-size: 13px;
+}
+
+.notification-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.notification-item {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding: 10px 14px;
+    border-bottom: 1px solid #f5f5f5;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+    .notification-item:hover {
+        background: #f9fafb;
+    }
+
+.notification-unread {
+    background: #eef2ff;
+    font-weight: 600;
+}
+
+.notification-time {
+    font-size: 11px;
+    color: #9ca3af;
+    font-weight: 400;
+}
+
+.review-section-heading {
+    font-size: 15px;
+    margin: 24px 0 10px;
+    color: #374151;
+}

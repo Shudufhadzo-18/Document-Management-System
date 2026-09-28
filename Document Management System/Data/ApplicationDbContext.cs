@@ -15,6 +15,10 @@ namespace Document_Management_System.Data
         public DbSet<Document> Documents { get; set; }
         public DbSet<DocumentVersion> DocumentVersions { get; set; }
         public DbSet<AuditLog> AuditLogs { get; set; }
+        public DbSet<Department> Departments { get; set; }
+        public DbSet<DocumentPermission> DocumentPermissions { get; set; }
+        public DbSet<DocumentComment> DocumentComments { get; set; }
+        public DbSet<Notification> Notifications { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -31,6 +35,11 @@ namespace Document_Management_System.Data
                       .WithMany()
                       .HasForeignKey(c => c.ParentId)
                       .OnDelete(DeleteBehavior.Restrict);
+            });
+            // ---- Department ----
+            modelBuilder.Entity<Department>(entity =>
+            {
+                entity.Property(d => d.Name).IsRequired().HasMaxLength(150);
             });
 
             // ---- Document ----
@@ -54,6 +63,11 @@ namespace Document_Management_System.Data
                       .OnDelete(DeleteBehavior.Restrict);
 
                 entity.HasIndex(d => d.Title); // supports search/filter by title
+
+                        entity.HasOne<Department>()
+                  .WithMany()
+                  .HasForeignKey(d => d.DepartmentId)
+                  .OnDelete(DeleteBehavior.SetNull);
             });
 
             // ---- DocumentVersion ----
@@ -70,6 +84,28 @@ namespace Document_Management_System.Data
                 // a document can't have two versions with the same number
                 entity.HasIndex(v => new { v.DocumentId, v.VersionNumber }).IsUnique();
             });
+            // ---- Document Permission ----
+            modelBuilder.Entity<DocumentPermission>(entity =>
+            {
+                entity.HasIndex(p => new { p.DocumentId, p.UserId }).IsUnique();
+
+                entity.HasOne<Document>()
+                      .WithMany()
+                      .HasForeignKey(p => p.DocumentId)
+                      .OnDelete(DeleteBehavior.Cascade); // deleting a document clears its permission grants too
+            });
+            // ---- Document Comment ----
+            modelBuilder.Entity<DocumentComment>(entity =>
+            {
+                entity.Property(c => c.Content).IsRequired().HasMaxLength(2000);
+
+                entity.HasOne<Document>()
+                      .WithMany()
+                      .HasForeignKey(c => c.DocumentId)
+                      .OnDelete(DeleteBehavior.Cascade);
+
+                entity.HasIndex(c => c.DocumentId);
+            });
 
             // ---- AuditLog ----
             modelBuilder.Entity<AuditLog>(entity =>
@@ -82,6 +118,14 @@ namespace Document_Management_System.Data
                       .OnDelete(DeleteBehavior.Cascade);
 
                 entity.HasIndex(a => a.Timestamp); // audit queries are usually time-ranged
+            });
+
+            // ---- notification ----
+
+            modelBuilder.Entity<Notification>(entity =>
+            {
+                entity.Property(n => n.Message).IsRequired().HasMaxLength(500);
+                entity.HasIndex(n => new { n.UserId, n.IsRead });
             });
         }
     }
